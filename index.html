@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="div_1 div">
+            <header>
+                <div class="startup_3">Startup3</div>
+                <div class="header_words">
+                    <div class="header_word">pricing</div>
+                    <div class="header_word">about</div>
+                </div>
+            </header>
+            <main>
+                <div class="main_sentence">Great tool to boost your startup </div>
+                <div class="lorem">We made it so beutiful and simple. It combines landings, pages, blogs and shop screens. It is definitely the tool you need in your collection! </div>
+                <div class="maib_btn">
+                    <button class="main_btn_1">Get Started</button>
+                    <button class="main_btn_2">Learn More</button>
+                </div>
+                <div class="end">By signing up, you agree to the Terms of Service</div>
+            </main>
+        </div>
+        <div class="div_2 div">
+            <img class="img" src="./Photo.png" alt="">
+        </div>
+    </div>
+</body>
+
+</html>
+<style>
+    .main_btn{
+        display: flex;
+        margin-top: 72px;
+        gap: 10px;
+    }
+    .end{
+        color: var(--colors-text, rgba(21, 20, 57, 0.40));
+        font-family: DM Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+    }
+    .main_btn_2{
+        width: 170px;
+        height: 60px;
+        flex-shrink: 0;
+        color: var(--colors-heading, #1E0E62);
+        text-align: center;
+        font-family: DM Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px;
+        border-radius: 100px;
+        border: 2px solid var(--colors-grey, #EBEAED);
+        margin-top: 72px;
+        margin-left: 10px;
+    }
+    .main_btn_1{
+        width: 170px;
+        height: 60px;
+        flex-shrink: 0;
+        color: var(--colors-white, #FFF);
+        text-align: center;
+        font-family: DM Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 26px;
+        border-radius: 100px;
+        background: var(--action-primary, #25DAC5);
+        border: none;
+        margin-top: 72px;
+    }
+    .lorem{
+        color: var(--colors-text, rgba(21, 20, 57, 0.40));
+        font-family: DM Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px;
+        width: 471px;
+        height: 83.896px;
+        flex-shrink: 0;
+        opacity: 0.7;
+        margin-top: 26px;
+        padding: 20px;
+    }
+    .div_1{
+        padding: 40px 70px 0 70px;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 125px;
+    }
+
+    .main_sentence {
+        width: 568px;
+        height: 140px;
+        flex-shrink: 0;
+        color: var(--colors-heading, #1E0E62);
+        font-family: DM Sans;
+        font-size: 58px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 70px;
+        letter-spacing: -1px;
+    }
+
+    .header_words {
+        display: flex;
+        gap: 38px;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 80px;
+    }
+
+    .div {
+        border: 1px solid;
+    }
+
+    .header_word {
+        color: var(--colors-text, rgba(21, 20, 57, 0.40));
+        font-family: DM Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 22px;
+    }
+
+    .startup_3 {
+        color: var(--colors-heading, #1E0E62);
+        text-align: center;
+        font-family: DM Sans;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.293px;
+        display: flex;
+        width: 111px;
+        height: 18.977px;
+        padding: 0px 3px 0px 2px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: auto 585px;
+
+    }
+
+    .img {
+        grid-column: 2/3;
+    }
+</style>
